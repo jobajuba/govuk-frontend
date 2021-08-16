@@ -35,7 +35,7 @@ params:
     - name: summary.html
       type: string
       required: false
-      description: HTML content for summary line.
+      description: HTML content for summary line. The summary line is inside the HTML `<button>` element, so you can only add [phrasing content](https://html.spec.whatwg.org/#phrasing-content) to it. Keep this content simple. Do not use any non-phrasing content, as the resulting HTML will not be valid. Instead, consider simplifying your content and [reviewing the accordion guidance to confirm whether it's the right component to use](https://design-system.service.gov.uk/components/accordion/#when-not-to-use-this-component).
     - name: content.text
       type: string
       required: true
