@@ -2,6 +2,14 @@
 
 ## Unreleased
 
+### New features
+
+#### Define negative spacing using the `govuk-spacing` function
+
+You can now pass the negative equivalent of a point from the spacing scale to the `govuk-spacing` function to get negative spacing.
+
+For example, `govuk-spacing(1)` returns `5px`, and `govuk-spacing(-1)` returns `-5px`.
+
 ## 3.13.1 (Fix release)
 
 ### Fixes
